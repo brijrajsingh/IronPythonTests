@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TestIronPython", "TestIronPython\TestIronPython.pyproj", "{ED4C5D6E-28CE-4037-BB5E-45E2C91724F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netClassLib", "netClassLib\netClassLib.csproj", "{D60DBE67-FB4E-4026-9153-941D508CCEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PytoDotNet", "PytoDotNet\PytoDotNet.csproj", "{003FB1EF-6E8B-4924-A9B4-345AF04D8BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4C5D6E-28CE-4037-BB5E-45E2C91724F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4C5D6E-28CE-4037-BB5E-45E2C91724F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60DBE67-FB4E-4026-9153-941D508CCEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60DBE67-FB4E-4026-9153-941D508CCEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60DBE67-FB4E-4026-9153-941D508CCEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60DBE67-FB4E-4026-9153-941D508CCEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003FB1EF-6E8B-4924-A9B4-345AF04D8BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003FB1EF-6E8B-4924-A9B4-345AF04D8BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003FB1EF-6E8B-4924-A9B4-345AF04D8BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003FB1EF-6E8B-4924-A9B4-345AF04D8BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
